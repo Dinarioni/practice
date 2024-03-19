@@ -1,9 +1,9 @@
 package Car;
 
-public abstract class Engine {
-    private double volume;
-    private String fuelType;
-    private String name;
+abstract class Engine {
+    protected double volume;
+    protected String fuelType;
+    protected String name;
 
     public Engine(double volume, String fuelType, String name) {
         this.volume = volume;
